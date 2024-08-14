@@ -1,0 +1,35 @@
+/* Popup.css */
+.popup {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: 20px;
+    border: 2px solid rgb(59, 67, 75);
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    padding: 10px;
+  }
+  
+  .popup-content button {
+    margin-top: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .popup-content h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .popup-content p {
+    margin: 0 0 10px 0;
+  }
+  
