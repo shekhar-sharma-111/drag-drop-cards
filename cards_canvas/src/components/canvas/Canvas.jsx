@@ -8,10 +8,6 @@ const Canvas = () => {
   const [popupVisible, setPopupVisible] = useState(false);
   const [popupData, setPopupData] = useState(null);
   const [canvasSize, setCanvasSize] = useState({ width: '90%', height: '80%' });
-  const [canvasSize, setCanvasSize] = useState({ width: '80%', height: '80%' });
-  const [canvasSize, setCanvasSize] = useState({ width: '90%', height: '80%' });
-
-  const [canvasSize, setCanvasSize] = useState({ width: '80%', height: '80%' });
 
   const canvasRef = useRef(null);
   const popupRef = useRef(null);
